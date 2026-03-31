@@ -1,0 +1,33 @@
+{
+	"name" : "Hooks",
+	"displayname" : "Hooks",
+	"version" : "1.0.0",
+	"author" : "Eagle, Hou Lam Wu",
+	"authors" : [  ],
+	"description" : "",
+	"tags" : [  ],
+	"website" : "http://www.github.com/mageeagle/hooks",
+	"extends" : "",
+	"extensible" : 0,
+	"max_version_min" : "none",
+	"max_version_max" : "none",
+	"os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.7.x",
+			"platform" : [ "ia32", "x64", "aarch64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "7",
+			"platform" : [ "ia32", "x64" ]
+		}
+
+	}
+,
+	"homepatcher" : "Hooks_Overview.maxpat",
+	"filelist" : 	{
+		"misc" : [ "example-cues.json", "example-score.json" ],
+		"extras" : [ "Hooks_Overview.maxpat" ]
+	}
+
+}

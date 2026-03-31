@@ -1,0 +1,19 @@
+{
+    "metadata": [ "Playing First Dialogue", "Playing Second Dialogue", "Playing Third Dialogue" ],
+    "cues": [ "dialogue 1 testing", "dialogue 2 testing2", "dialogue 3 testing3" ],
+    "testing": {
+        "test/example-filter-gain": [ 1.0, 1000.0 ],
+        "test/example-filter-q-hi": [ 0.4661, 1000.0 ],
+        "test/example-filter-midi-hi": [ 40.0, 5000.0 ]
+    },
+    "testing2": {
+        "test/example-filter-gain": [ 1.0, 1000.0 ],
+        "test/example-filter-q-hi": [ 0.8, 5000.0 ],
+        "test/example-filter-midi-hi": [ 60.0, 5000.0 ]
+    },
+    "testing3": {
+        "test/example-filter-gain": [ 1.0, 1000.0 ],
+        "test/example-filter-q-hi": [ 0.4661, 1000.0 ],
+        "test/example-filter-midi-hi": [ 80.0, 5000.0 ]
+    }
+}

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
+        "rect": [ 34.0, 77.0, 1639.0, 850.0 ],
         "boxes": [
             {
                 "box": {
@@ -40,7 +40,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 320.0, 681.0, 104.0, 22.0 ],
-                    "text": "ambi1-mcs-grains"
+                    "text": "1-input"
                 }
             },
             {
@@ -71,7 +71,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1126.0, 544.0, 144.0, 22.0 ],
+                    "patching_rect": [ 1167.0, 544.0, 144.0, 22.0 ],
                     "text": "sprintf send %s-state-raw"
                 }
             },
@@ -82,7 +82,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1126.0, 508.0, 97.0, 22.0 ],
+                    "patching_rect": [ 1167.0, 508.0, 97.0, 22.0 ],
                     "text": "r #0-name"
                 }
             },
@@ -121,7 +121,6 @@
             {
                 "box": {
                     "id": "obj-14",
-                    "int": 1,
                     "maxclass": "gswitch2",
                     "numinlets": 2,
                     "numoutlets": 2,
@@ -572,7 +571,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 454.0, 420.0, 98.0, 22.0 ],
+                    "patching_rect": [ 454.0, 420.0, 102.0, 22.0 ],
                     "text": "sprintf #1-%s"
                 }
             },
@@ -752,7 +751,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-52", 0 ],
-                    "midpoints": [ 823.5, 430.0, 1088.5, 430.0 ],
+                    "midpoints": [ 823.5, 428.5, 1088.5, 428.5 ],
                     "source": [ "obj-14", 1 ]
                 }
             },
@@ -1019,7 +1018,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-52", 0 ],
-                    "midpoints": [ 1135.5, 576.0191024697951, 1088.5, 576.0191024697951 ],
+                    "midpoints": [ 1176.5, 576.0191024697951, 1088.5, 576.0191024697951 ],
                     "source": [ "obj-47", 0 ]
                 }
             },
