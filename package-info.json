@@ -4,7 +4,7 @@
 	"version" : "1.0.0",
 	"author" : "Eagle, Hou Lam Wu",
 	"authors" : [  ],
-	"description" : "",
+	"description" : "Hooks is a snippet and template for abstractions, aimed at exposing parameters of the patcher for easier access, editing and integration. Especially for large patches with multiple abstractions used, as well as changing parameters in a live situation.",
 	"tags" : [  ],
 	"website" : "http://www.github.com/mageeagle/hooks",
 	"extends" : "",
