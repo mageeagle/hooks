@@ -1013,7 +1013,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 814.634165763855, 417.47634863853455, 50.0, 22.0 ],
-                    "text": "127"
+                    "text": "27"
                 }
             },
             {
@@ -1280,7 +1280,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
+                        "rect": [ 39.0, 194.0, 1639.0, 802.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -2209,7 +2209,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ -86.0, 189.0, 1639.0, 802.0 ],
+                        "rect": [ -50.0, 150.0, 1639.0, 802.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -2435,7 +2435,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 694.0, 1577.0, 82.0, 22.0 ],
+                                    "patching_rect": [ 830.0, 1577.0, 82.0, 22.0 ],
                                     "text": "prepend send"
                                 }
                             },
@@ -2443,11 +2443,11 @@
                                 "box": {
                                     "id": "obj-162",
                                     "maxclass": "newobj",
-                                    "numinlets": 2,
+                                    "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 694.0, 1542.0, 103.0, 22.0 ],
-                                    "text": "combine s -toggle"
+                                    "patching_rect": [ 694.0, 1542.0, 139.0, 22.0 ],
+                                    "text": "hooks.name send toggle"
                                 }
                             },
                             {
@@ -2541,12 +2541,12 @@
                                     "numinlets": 2,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 694.0, 1373.0, 124.0, 22.0 ],
+                                    "patching_rect": [ 694.0, 1373.0, 129.0, 22.0 ],
                                     "saved_object_attributes": {
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0
                                     },
-                                    "text": "array hook-control-list"
+                                    "text": "array hooks/control-list"
                                 }
                             },
                             {
@@ -2713,14 +2713,8 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-165", 0 ],
-                                    "source": [ "obj-162", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
                                     "destination": [ "obj-160", 0 ],
-                                    "source": [ "obj-165", 0 ]
+                                    "source": [ "obj-162", 0 ]
                                 }
                             },
                             {
@@ -2831,7 +2825,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-82", 1 ],
-                                    "midpoints": [ 607.0, 841.5, 808.5, 841.5 ],
+                                    "midpoints": [ 607.0, 841.5, 813.5, 841.5 ],
                                     "order": 0,
                                     "source": [ "obj-41", 1 ]
                                 }
@@ -3005,7 +2999,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-58",
-                    "items": [ 0, ",", 0, ",", 0, ",", 0, ",", 0, ",", 0, ",", 0 ],
+                    "items": [ 0, ",", 0, ",", 0, ",", 0, ",", 0, ",", 0, ",", 1 ],
                     "maxclass": "chooser",
                     "multiselect": 1,
                     "numinlets": 1,
@@ -3366,7 +3360,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-68",
-                    "items": [ 0.1, ",", 5000.0, ",", 300.0, ",", 1.0, ",", 0.1, ",", 0.0 ],
+                    "items": [ 5000, ",", 1.0, ",", 1.0, ",", 64.7644, ",", 31.2168, ",", 0.4661, ",", 0.2, ",", 0.0 ],
                     "maxclass": "chooser",
                     "numinlets": 1,
                     "numoutlets": 6,
@@ -3383,7 +3377,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-33",
-                    "items": [ "amount", ",", "fade-time", ",", "freq", ",", "gain", ",", "ratio", ",", "toggle" ],
+                    "items": [ "fade-in-out-time", ",", "gain", ",", "input-gain", ",", "midi-hi", ",", "midi-lo", ",", "q-hi", ",", "q-lo", ",", "toggle" ],
                     "maxclass": "chooser",
                     "numinlets": 1,
                     "numoutlets": 6,
@@ -3401,7 +3395,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-6",
-                    "items": [ "tab-2/example-synth", ",", "tab-1/example-filter", ",", "tab-1-extra/example-filter", ",", "loud/example-filter", ",", "test/example-filter", ",", "hi/example-filter", ",", "live-control/example-filter" ],
+                    "items": [ "tab-1/example-filter", ",", "tab-1-extra/example-filter", ",", "loud/example-filter", ",", "test/example-filter", ",", "hi/example-filter", ",", "live-control/example-filter", ",", "tab-2/example-synth" ],
                     "maxclass": "chooser",
                     "numinlets": 1,
                     "numoutlets": 6,
