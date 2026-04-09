@@ -2,7 +2,7 @@
 
 ![Image](/images/example.png)
 
-This is a set of abstractions to organize time-based automations in Max/MSP, built using pattrstorage to access parameters in your patcher, connecting these parameters to line/curve objects which automates the change of these parameters. 
+This is a set of abstractions to organize time-based automations in Max/MSP, built using pattrstorage to access parameters in your patcher, connecting these parameters to line/curve objects which automates the change of these parameters. Helpers are also included for quick access.
 
 ## Parameter Control over Time
 
