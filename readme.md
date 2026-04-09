@@ -30,6 +30,12 @@ Helpers are included to easily access any patcher equiped with the hooks system.
 #### Optional: CNMAT Externals, odot, ossia
 
 ---
+### Install
+
+1. Download / Repo the repo
+2. Unzip and place in Max Packages, in a folder called hooks (eg. ~/Documents/Max 9/Packages/hoooks)
+
+---
 
 ### Note: 
 The use of the abstractions is relatively simple, but the pre-made utilities feels very convoluted.
