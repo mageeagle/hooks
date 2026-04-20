@@ -14,6 +14,27 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-56",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 610.0, 497.0, 98.0, 22.0 ],
+                    "text": "s hooks/cue/now"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-53",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 610.0, 386.0, 41.0, 22.0 ],
+                    "text": "set $1"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-59",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -65,7 +86,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 453.0, 19.0, 30.0, 30.0 ]
                 }
             },
@@ -190,7 +211,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 610.0, 838.0, 349.0, 117.0 ],
+                    "patching_rect": [ 610.0, 838.0, 355.0, 117.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
                     "presentation_rect": [ 33.0, 383.0, 491.0, 117.0 ],
@@ -254,7 +275,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 610.0, 437.0, 224.0, 77.0 ],
+                    "patching_rect": [ 610.0, 413.0, 224.0, 77.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 33.0, 31.5, 224.0, 77.0 ]
                 }
@@ -266,7 +287,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 610.0, 394.0, 96.0, 22.0 ],
+                    "patching_rect": [ 610.0, 357.0, 96.0, 22.0 ],
                     "text": "r hooks/cue/now"
                 }
             },
@@ -618,7 +639,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "bang" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 184.0, 19.0, 30.0, 30.0 ]
                 }
             },
@@ -1226,6 +1247,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-78", 0 ],
+                    "source": [ "obj-53", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-3", 0 ],
                     "order": 1,
                     "source": [ "obj-54", 0 ]
@@ -1283,7 +1310,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-78", 0 ],
+                    "destination": [ "obj-56", 0 ],
+                    "source": [ "obj-78", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-53", 0 ],
                     "source": [ "obj-79", 0 ]
                 }
             },
