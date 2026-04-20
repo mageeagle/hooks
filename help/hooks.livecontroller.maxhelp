@@ -9,8 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 100.0, 1000.0, 730.0 ],
+        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
         "boxes": [
+            {
+                "box": {
+                    "fontsize": 18.0,
+                    "id": "obj-24",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 507.0, 66.74999105930328, 416.0, 27.0 ],
+                    "presentation_linecount": 2,
+                    "text": "Click on presentation mode to hide explanations!"
+                }
+            },
             {
                 "box": {
                     "id": "obj-16",
@@ -112,6 +124,9 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 28.74999725818634, 108.74998962879181, 456.2499564886093, 48.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 3,
+                    "presentation_rect": [ 28.74999725818634, 108.74998962879181, 456.2499564886093, 48.0 ],
                     "text": "The Live Controller provides a native Max UI interface to control quickly the hooked Devices, intended for quick access to any devices opened and control with the element of time in live situations."
                 }
             },
@@ -127,7 +142,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 28.74999725818634, 32.49999690055847, 461.24995601177216, 61.24999415874481 ]
+                    "patching_rect": [ 28.74999725818634, 32.49999690055847, 461.24995601177216, 61.24999415874481 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 28.74999725818634, 32.49999690055847, 461.24995601177216, 61.24999415874481 ]
                 }
             },
             {
@@ -257,6 +274,8 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 40.0, 229.0, 1058.0, 760.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 40.0, 229.0, 1058.0, 760.0 ],
                     "viewvisibility": 1
                 }
             },

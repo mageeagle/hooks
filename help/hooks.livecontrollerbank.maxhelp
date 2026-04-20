@@ -9,8 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1231.0, 802.0 ],
+        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
         "boxes": [
+            {
+                "box": {
+                    "fontsize": 18.0,
+                    "id": "obj-26",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1276.5, 103.0, 222.0, 69.0 ],
+                    "text": "Click on presentation mode to hide explanations!"
+                }
+            },
             {
                 "box": {
                     "id": "obj-22",
@@ -18,6 +30,8 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 626.0, 49.0, 191.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 626.0, 49.0, 191.0, 20.0 ],
                     "text": "Dummy Toggles"
                 }
             },
@@ -39,6 +53,8 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 862.0, 49.0, 191.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 862.0, 49.0, 191.0, 20.0 ],
                     "text": "Dummy Knobs for you to try"
                 }
             },
@@ -136,6 +152,9 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 10.0, 90.0, 461.24995601177216, 103.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 7,
+                    "presentation_rect": [ 10.0, 90.0, 461.24995601177216, 103.0 ],
                     "text": "The Live Controller provides a native Max UI interface to control quickly the hooked Devices, intended for quick access to any devices opened and control with the element of time in live situations. The Bank version takes advantage of hooks.controller to integrate Matrix Pads, Knobs and Buttons. Refer to hooks.controllereditor to create banks and presets, and how to access the hooks.controller with sends and receives. After presets are created, they could be used here, or with a custom ui."
                 }
             },
@@ -151,7 +170,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 10.0, 13.0, 531.0, 62.0 ]
+                    "patching_rect": [ 10.0, 13.0, 531.0, 62.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 10.0, 13.0, 531.0, 62.0 ]
                 }
             },
             {
@@ -171,6 +192,8 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 10.0, 334.0, 1078.0, 795.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 10.0, 334.0, 1078.0, 795.0 ],
                     "varname": "hooks.livecontrolbank",
                     "viewvisibility": 1
                 }
@@ -182,7 +205,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1202.0, 209.0, 63.0, 22.0 ],
+                    "patching_rect": [ 1200.0, 196.5, 63.0, 22.0 ],
                     "text": "prepend 4"
                 }
             },
@@ -193,7 +216,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1161.0, 183.0, 63.0, 22.0 ],
+                    "patching_rect": [ 1159.0, 170.5, 63.0, 22.0 ],
                     "text": "prepend 3"
                 }
             },
@@ -204,7 +227,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1114.0, 209.0, 63.0, 22.0 ],
+                    "patching_rect": [ 1112.0, 196.5, 63.0, 22.0 ],
                     "text": "prepend 2"
                 }
             },
@@ -215,7 +238,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1070.0, 183.0, 63.0, 22.0 ],
+                    "patching_rect": [ 1068.0, 170.5, 63.0, 22.0 ],
                     "text": "prepend 1"
                 }
             },
@@ -226,7 +249,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1070.0, 245.0, 29.0, 22.0 ],
+                    "patching_rect": [ 1068.0, 232.5, 29.0, 22.0 ],
                     "text": "thru"
                 }
             },
@@ -237,7 +260,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1202.0, 109.0, 41.0, 22.0 ],
+                    "patching_rect": [ 1200.0, 96.5, 41.0, 22.0 ],
                     "text": "set $1"
                 }
             },
@@ -249,7 +272,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1202.0, 134.0, 41.0, 41.0 ],
+                    "patching_rect": [ 1200.0, 121.5, 41.0, 41.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1200.0, 121.5, 41.0, 41.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -270,7 +295,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1161.0, 109.0, 41.0, 22.0 ],
+                    "patching_rect": [ 1159.0, 96.5, 41.0, 22.0 ],
                     "text": "set $1"
                 }
             },
@@ -282,7 +307,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1161.0, 134.0, 41.0, 41.0 ],
+                    "patching_rect": [ 1159.0, 121.5, 41.0, 41.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1159.0, 121.5, 41.0, 41.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -303,7 +330,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1114.0, 109.0, 41.0, 22.0 ],
+                    "patching_rect": [ 1112.0, 96.5, 41.0, 22.0 ],
                     "text": "set $1"
                 }
             },
@@ -315,7 +342,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1114.0, 134.0, 41.0, 41.0 ],
+                    "patching_rect": [ 1112.0, 121.5, 41.0, 41.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1112.0, 121.5, 41.0, 41.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -336,7 +365,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1070.0, 109.0, 41.0, 22.0 ],
+                    "patching_rect": [ 1068.0, 96.5, 41.0, 22.0 ],
                     "text": "set $1"
                 }
             },
@@ -347,7 +376,7 @@
                     "numinlets": 5,
                     "numoutlets": 5,
                     "outlettype": [ "", "", "", "", "" ],
-                    "patching_rect": [ 1070.0, 71.0, 76.0, 22.0 ],
+                    "patching_rect": [ 1068.0, 58.5, 76.0, 22.0 ],
                     "text": "route 1 2 3 4"
                 }
             },
@@ -359,7 +388,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 1070.0, 134.0, 41.0, 41.0 ],
+                    "patching_rect": [ 1068.0, 121.5, 41.0, 41.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1068.0, 121.5, 41.0, 41.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -380,7 +411,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1070.0, 36.0, 153.0, 22.0 ],
+                    "patching_rect": [ 1068.0, 23.5, 153.0, 22.0 ],
                     "text": "r hooks/controller/recall-out"
                 }
             },
@@ -524,6 +555,8 @@
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 673.0, 117.0, 41.0, 41.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 673.0, 117.0, 41.0, 41.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -557,6 +590,8 @@
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 632.0, 117.0, 41.0, 41.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 632.0, 117.0, 41.0, 41.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -590,6 +625,8 @@
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 588.0, 117.0, 41.0, 41.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 588.0, 117.0, 41.0, 41.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -678,6 +715,8 @@
                     "outlettype": [ "" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 543.0, 117.0, 41.0, 41.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 543.0, 117.0, 41.0, 41.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "off", "on" ],
@@ -700,6 +739,8 @@
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 909.0, 122.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 909.0, 122.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "live.dial[4]",
@@ -721,6 +762,8 @@
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 862.0, 122.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 862.0, 122.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "live.dial[3]",
@@ -742,6 +785,8 @@
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 811.0, 122.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 811.0, 122.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "live.dial[2]",
@@ -763,6 +808,8 @@
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
                     "patching_rect": [ 765.0, 122.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 765.0, 122.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "live.dial[1]",
@@ -783,6 +830,8 @@
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
                     "patching_rect": [ 1303.0, 358.0, 169.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1303.0, 358.0, 169.0, 22.0 ],
                     "text": "example-synth-hooked hello 2",
                     "varname": "example-synth-hooked[2]"
                 }
@@ -795,6 +844,8 @@
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
                     "patching_rect": [ 1140.0, 358.0, 153.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1140.0, 358.0, 153.0, 22.0 ],
                     "text": "example-synth-hooked hi 2",
                     "varname": "example-synth-hooked[1]"
                 }
@@ -805,7 +856,9 @@
                     "maxclass": "mc.ezdac~",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1120.0, 466.0, 45.0, 45.0 ]
+                    "patching_rect": [ 1120.0, 466.0, 45.0, 45.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1120.0, 466.0, 45.0, 45.0 ]
                 }
             },
             {
@@ -817,7 +870,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "multichannelsignal", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 1120.0, 418.0, 323.0, 27.0 ]
+                    "patching_rect": [ 1120.0, 418.0, 323.0, 27.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1120.0, 418.0, 323.0, 27.0 ]
                 }
             },
             {
@@ -828,6 +883,8 @@
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
                     "patching_rect": [ 1119.0, 329.0, 163.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1119.0, 329.0, 163.0, 22.0 ],
                     "text": "example-synth-hooked test 2",
                     "varname": "example-synth-hooked"
                 }
@@ -850,6 +907,8 @@
                     "numinlets": 0,
                     "numoutlets": 0,
                     "patching_rect": [ 1119.0, 291.0, 147.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1119.0, 291.0, 147.0, 22.0 ],
                     "text": "hooks.controller 64 32 8 5",
                     "varname": "hooks.controller"
                 }
@@ -873,7 +932,9 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1061.0, 21.0, 212.0, 258.0 ],
+                    "patching_rect": [ 1059.0, 8.5, 212.0, 258.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1059.0, 8.5, 212.0, 258.0 ],
                     "proportion": 0.5
                 }
             },
@@ -887,6 +948,8 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 754.0, 9.0, 299.0, 254.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 754.0, 9.0, 299.0, 254.0 ],
                     "proportion": 0.5
                 }
             },
@@ -900,6 +963,8 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 533.0, 5.0, 212.0, 258.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 533.0, 5.0, 212.0, 258.0 ],
                     "proportion": 0.5
                 }
             },
@@ -1182,29 +1247,35 @@
             {
                 "patchline": {
                     "destination": [ "obj-121", 0 ],
-                    "midpoints": [ 1211.5, 239.60275411605835, 1079.5, 239.60275411605835 ],
+                    "midpoints": [ 1209.5, 227.10275411605835, 1077.5, 227.10275411605835 ],
                     "source": [ "obj-117", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-121", 0 ],
-                    "midpoints": [ 1170.5, 227.60275411605835, 1079.5, 227.60275411605835 ],
+                    "midpoints": [ 1168.5, 215.10275411605835, 1077.5, 215.10275411605835 ],
                     "source": [ "obj-118", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-121", 0 ],
-                    "midpoints": [ 1123.5, 239.60275411605835, 1079.5, 239.60275411605835 ],
+                    "midpoints": [ 1121.5, 227.10275411605835, 1077.5, 227.10275411605835 ],
                     "source": [ "obj-119", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-121", 0 ],
-                    "midpoints": [ 1079.5, 227.60275411605835, 1079.5, 227.60275411605835 ],
+                    "midpoints": [ 1077.5, 215.10275411605835, 1077.5, 215.10275411605835 ],
                     "source": [ "obj-120", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 1 ],
+                    "source": [ "obj-121", 0 ]
                 }
             },
             {
@@ -1252,28 +1323,28 @@
             {
                 "patchline": {
                     "destination": [ "obj-122", 0 ],
-                    "midpoints": [ 1122.25, 101.60275411605835, 1211.5, 101.60275411605835 ],
+                    "midpoints": [ 1120.25, 89.10275411605835, 1209.5, 89.10275411605835 ],
                     "source": [ "obj-130", 3 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-124", 0 ],
-                    "midpoints": [ 1108.0, 101.60275411605835, 1170.5, 101.60275411605835 ],
+                    "midpoints": [ 1106.0, 89.10275411605835, 1168.5, 89.10275411605835 ],
                     "source": [ "obj-130", 2 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-127", 0 ],
-                    "midpoints": [ 1093.75, 101.60275411605835, 1123.5, 101.60275411605835 ],
+                    "midpoints": [ 1091.75, 89.10275411605835, 1121.5, 89.10275411605835 ],
                     "source": [ "obj-130", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-129", 0 ],
-                    "midpoints": [ 1079.5, 101.60275411605835, 1079.5, 101.60275411605835 ],
+                    "midpoints": [ 1077.5, 89.10275411605835, 1077.5, 89.10275411605835 ],
                     "source": [ "obj-130", 0 ]
                 }
             },
@@ -1458,6 +1529,14 @@
             "obj-95": [ "live.toggle[3]", "live.toggle", 0 ],
             "obj-97": [ "live.toggle[4]", "live.toggle", 0 ],
             "obj-99": [ "live.toggle[5]", "live.toggle", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

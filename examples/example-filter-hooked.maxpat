@@ -18,8 +18,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 175.52136820554733, 237.07281484842304, 297.0, 48.0 ],
-                    "text": "This is create with the hooks.template, which includes a muter which mutes all signal processing in this patcher unless it is toggled on."
+                    "patching_rect": [ 176.0, 237.07281484842304, 325.0, 48.0 ],
+                    "text": "This is created with the hooks.template, which includes a muter which mutes all signal processing in this patcher unless it is toggled on."
                 }
             },
             {
@@ -183,11 +183,11 @@
             {
                 "box": {
                     "id": "obj-37",
-                    "linecount": 4,
+                    "linecount": 3,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 175.52136820554733, 300.5131249690056, 168.0, 62.0 ],
+                    "patching_rect": [ 176.0, 300.5131249690056, 235.0, 48.0 ],
                     "text": "Give this subpatcher a name,\nThis name act as the unique identifier of your abstraction. see inside how it works"
                 }
             },
@@ -219,7 +219,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ -162.0, 169.0, 1639.0, 802.0 ],
+                        "rect": [ -68.0, 287.0, 1639.0, 802.0 ],
                         "globalpatchername": "tab-1/example-filter",
                         "boxes": [
                             {
@@ -408,7 +408,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 417.0, 734.0, 385.0000000000001, 34.0 ],
+                                    "patching_rect": [ 419.0, 728.0, 385.0000000000001, 34.0 ],
                                     "text": "The first argument #1 of the patcher is always the instance name, you can set #1 here to another number if required"
                                 }
                             },
@@ -419,8 +419,8 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 419.0, 507.4711772012711, 426.0, 75.0 ],
-                                    "text": "This is from the snippet hooks.marker, basically you can just paste and forget.\nThis can only work inside a subpatcher with a name.\neverything here can be accessed through hooks.helper\nYou can change the \"rp\" poly patcher to add different functionalities\nRefer to the patcher outside of this example"
+                                    "patching_rect": [ 419.0, 502.0, 426.0, 75.0 ],
+                                    "text": "This is from the snippet hooks.marker, basically you can just paste and forget.\nThis can only work inside a subpatcher with a name.\neverything here can be accessed through hooks.helper\nYou can change the \"rp\" poly patcher to add different functionalities\nRefer to the rp-connection section in Hooks_Overview."
                                 }
                             },
                             {
@@ -753,7 +753,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 4,
                                     "outlettype": [ "multichannelsignal", "bang", "bang", "int" ],
-                                    "patching_rect": [ 50.0, 692.278015, 74.0, 22.0 ],
+                                    "patching_rect": [ 50.0, 692.278015, 90.0, 22.0 ],
                                     "text": "hooks.fade~"
                                 }
                             },
@@ -871,7 +871,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-4", 2 ],
-                                    "midpoints": [ 130.5, 680.278015, 114.5, 680.278015 ],
+                                    "midpoints": [ 130.5, 680.278015, 130.5, 680.278015 ],
                                     "source": [ "obj-3", 0 ]
                                 }
                             },
@@ -902,7 +902,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-5", 0 ],
-                                    "midpoints": [ 114.5, 724.278015, 154.75, 724.278015, 154.75, 609.0, 95.0, 609.0 ],
+                                    "midpoints": [ 130.5, 724.278015, 154.75, 724.278015, 154.75, 609.0, 95.0, 609.0 ],
                                     "source": [ "obj-4", 3 ]
                                 }
                             },

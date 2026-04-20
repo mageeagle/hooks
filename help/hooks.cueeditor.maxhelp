@@ -13,6 +13,18 @@
         "boxes": [
             {
                 "box": {
+                    "fontsize": 18.0,
+                    "id": "obj-24",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1356.0, 16.670732259750366, 232.0, 48.0 ],
+                    "text": "Click on presentation mode to hide explanations!"
+                }
+            },
+            {
+                "box": {
                     "hidden": 1,
                     "id": "obj-34",
                     "maxclass": "newobj",
@@ -96,7 +108,9 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 2.0, 19.170732259750366, 440.0, 56.0 ]
+                    "patching_rect": [ 2.0, 19.170732259750366, 440.0, 56.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 2.0, 19.170732259750366, 440.0, 56.0 ]
                 }
             },
             {
@@ -128,8 +142,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1376.0, 336.0, 129.0, 34.0 ],
-                    "text": "You can insert cue or swap cues. "
+                    "patching_rect": [ 1376.0, 329.0, 282.0, 34.0 ],
+                    "text": "You can insert cue or swap cues. If you want to swap a cue, you have to click on the bang button."
                 }
             },
             {
@@ -249,6 +263,9 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 360.5, 23.170732259750366, 757.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 3,
+                    "presentation_rect": [ 360.5, 23.170732259750366, 757.0, 48.0 ],
                     "text": "The Cue Editor / Player is built for triggering cues: a group of changes to a bunch of parameters to be triggered by an index number.\nIt is probably faster to edit the json file with an IDE, so you could copy or move varies groups cues easily, and Undo\nRefer to the dict object at step 11 to get an idea how the json file is formatted."
                 }
             },
@@ -269,6 +286,8 @@
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
                     "patching_rect": [ 6.0975611209869385, 167.07317471504211, 1574.999939918518, 883.3332996368408 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 6.0975611209869385, 167.07317471504211, 1574.999939918518, 883.3332996368408 ],
                     "viewvisibility": 1
                 }
             },
@@ -537,14 +556,6 @@
         ],
         "parameters": {
             "obj-33": [ "live.text", "live.text", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
