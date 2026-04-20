@@ -14,11 +14,11 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-56",
+                    "id": "obj-57",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 610.0, 497.0, 98.0, 22.0 ],
+                    "patching_rect": [ 32.5, 64.0, 98.0, 22.0 ],
                     "text": "s hooks/cue/now"
                 }
             },
@@ -118,15 +118,13 @@
             {
                 "box": {
                     "id": "obj-87",
-                    "linecount": 3,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 157.0, 515.0, 130.0, 48.0 ],
+                    "patching_rect": [ 157.0, 515.0, 130.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 451.0, 54.0, 197.0, 34.0 ],
-                    "text": "External Process before Sending\nSee Example"
+                    "presentation_rect": [ 451.0, 61.0, 197.0, 20.0 ],
+                    "text": "External Process"
                 }
             },
             {
@@ -578,7 +576,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 341.5, 88.0, 150.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 371.0, 52.0, 78.0, 20.0 ],
+                    "presentation_rect": [ 371.0, 61.0, 78.0, 20.0 ],
                     "text": "Read Cues"
                 }
             },
@@ -675,7 +673,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 184.0, 88.0, 150.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 277.0, 52.0, 92.0, 20.0 ],
+                    "presentation_rect": [ 277.0, 61.0, 92.0, 20.0 ],
                     "text": "Update Cues"
                 }
             },
@@ -1310,12 +1308,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-56", 0 ],
-                    "source": [ "obj-78", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-53", 0 ],
                     "source": [ "obj-79", 0 ]
                 }
@@ -1348,6 +1340,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-10", 0 ],
+                    "order": 0,
+                    "source": [ "obj-9", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 0 ],
+                    "order": 1,
                     "source": [ "obj-9", 0 ]
                 }
             },
