@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -36,7 +36,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -203,14 +203,89 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 41.0, 111.0, 1639.0, 802.0 ],
-                        "globalpatchername": "tab-2/example-synth",
+                        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
+                        "globalpatchername": "0/example-synth",
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-31",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 297.47572723031044, 367.0, 295.0, 34.0 ],
+                                    "text": "If there are no min max annotation_name attributes, the pattr will be ignored by the probecontroller"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-26",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 883.0, 293.0, 292.0, 34.0 ],
+                                    "presentation_linecount": 2,
+                                    "text": "When a pattr has toggle as annotation_name, it will be mapped on the toggles of the probecontroller."
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-15",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 288.5, 238.0, 292.0, 48.0 ],
+                                    "presentation_linecount": 4,
+                                    "text": "When a pattr has expo (exponent number) as annotation_name, the expoential is applied to the scale object on the rotary controller "
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-14",
+                                    "linecount": 3,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 582.5, 288.0, 218.0, 48.0 ],
+                                    "text": "When a pattr has the min and max attribute, the parameter will be mapped on the dials of the probecontroller."
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-12",
+                                    "maxclass": "toggle",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "int" ],
+                                    "parameter_enable": 0,
+                                    "patching_rect": [ 883.0, 399.0, 24.0, 24.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-8",
+                                    "maxclass": "newobj",
+                                    "numinlets": 1,
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "" ],
+                                    "patching_rect": [ 883.0, 347.0, 272.0, 22.0 ],
+                                    "saved_object_attributes": {
+                                        "annotation_name": "toggle",
+                                        "initial": [ 0 ],
+                                        "parameter_enable": 0,
+                                        "parameter_mappable": 0
+                                    },
+                                    "text": "pattr dummy @initial 0 @annotation_name toggle",
+                                    "varname": "dummy"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-29",
@@ -229,7 +304,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "multichannelsignal" ],
-                                    "patching_rect": [ 414.0, 400.0, 114.0, 22.0 ],
+                                    "patching_rect": [ 297.47572723031044, 400.0, 114.0, 22.0 ],
                                     "text": "mc.sig~ @chans #2"
                                 }
                             },
@@ -240,13 +315,13 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 574.0, 320.0, 122.0, 22.0 ],
+                                    "patching_rect": [ 574.0, 343.0, 218.0, 22.0 ],
                                     "saved_object_attributes": {
                                         "initial": [ 0.1 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0
                                     },
-                                    "text": "pattr ratio @initial 0.1",
+                                    "text": "pattr ratio @initial 0.1 @min 1 @max 1.",
                                     "varname": "ratio"
                                 }
                             },
@@ -257,7 +332,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 414.0, 320.0, 139.0, 22.0 ],
+                                    "patching_rect": [ 297.47572723031044, 343.0, 139.0, 22.0 ],
                                     "saved_object_attributes": {
                                         "initial": [ 0.1 ],
                                         "parameter_enable": 0,
@@ -274,7 +349,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "multichannelsignal" ],
-                                    "patching_rect": [ 274.0, 400.0, 114.0, 22.0 ],
+                                    "patching_rect": [ 167.5, 400.0, 114.0, 22.0 ],
                                     "text": "mc.sig~ @chans #2"
                                 }
                             },
@@ -285,13 +360,14 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 274.0, 320.0, 123.0, 22.0 ],
+                                    "patching_rect": [ 167.5, 288.0, 413.0, 22.0 ],
                                     "saved_object_attributes": {
+                                        "annotation_name": "expo 1.060000",
                                         "initial": [ 440 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0
                                     },
-                                    "text": "pattr freq @initial 440",
+                                    "text": "pattr freq @initial 440 @min 110 @max 8800 @annotation_name expo 1.06",
                                     "varname": "freq"
                                 }
                             },
@@ -637,7 +713,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-16", 0 ],
-                                    "midpoints": [ 283.5, 460.0, 59.5, 460.0 ],
+                                    "midpoints": [ 177.0, 460.0, 59.5, 460.0 ],
                                     "source": [ "obj-20", 0 ]
                                 }
                             },
@@ -670,7 +746,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-16", 1 ],
-                                    "midpoints": [ 423.5, 460.0, 152.0, 460.0 ],
+                                    "midpoints": [ 306.97572723031044, 460.0, 152.0, 460.0 ],
                                     "source": [ "obj-27", 0 ]
                                 }
                             },
@@ -754,6 +830,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-12", 0 ],
+                                    "source": [ "obj-8", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-4", 1 ],
                                     "source": [ "obj-9", 0 ]
                                 }
@@ -797,7 +879,7 @@
                     },
                     "patching_rect": [ 54.0, 180.0, 97.0, 22.0 ],
                     "saved_object_attributes": {
-                        "globalpatchername": "tab-2/example-synth"
+                        "globalpatchername": "0/example-synth"
                     },
                     "text": "p example-synth",
                     "varname": "patcher"

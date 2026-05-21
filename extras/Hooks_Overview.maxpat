@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
+        "rect": [ 34.0, 77.0, 1085.0, 802.0 ],
         "showrootpatcherontab": 0,
         "boxes": [
             {
@@ -23,14 +23,24 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 103.0, 1639.0, 776.0 ],
+                        "rect": [ 34.0, 103.0, 1085.0, 776.0 ],
                         "title": "Utilities",
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-1",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 372.0, 288.0, 442.0, 20.0 ],
+                                    "text": "Automated Controller Mapping for Hooked Devices."
+                                }
+                            },
                             {
                                 "box": {
                                     "border": 0,
@@ -52,7 +62,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 372.0, 191.0, 417.0, 20.0 ],
+                                    "patching_rect": [ 372.0, 200.0, 417.0, 20.0 ],
                                     "text": "Access any available hooked patchers and change their value quickly."
                                 }
                             },
@@ -74,8 +84,8 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 372.0, 226.0, 442.0, 34.0 ],
-                                    "text": "Turn Pads and Controllers into Matrix Controller Banks. Map hundreds of hooked patchers and their parameters to control with your MIDI controller."
+                                    "patching_rect": [ 372.0, 232.0, 442.0, 34.0 ],
+                                    "text": "Turn Pads and Controllers into Matrix Controller Banks. Map hundreds of hooked devices and their parameters to control with your MIDI controller."
                                 }
                             },
                             {
@@ -84,7 +94,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 372.0, 290.0, 257.0, 20.0 ],
+                                    "patching_rect": [ 372.0, 314.0, 257.0, 20.0 ],
                                     "text": "Composing a score and playing it back"
                                 }
                             },
@@ -104,18 +114,18 @@
                                     "fontsize": 20.0,
                                     "id": "obj-15",
                                     "maxclass": "live.tab",
-                                    "num_lines_patching": 7,
+                                    "num_lines_patching": 8,
                                     "num_lines_presentation": 0,
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "float" ],
                                     "parameter_enable": 1,
-                                    "patching_rect": [ 22.0, 137.0, 348.0, 187.0 ],
+                                    "patching_rect": [ 22.0, 137.0, 348.0, 235.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
-                                            "parameter_enum": [ "hooks.cueeditor", "hooks.cueplayer", "hooks.livecontroller", "hooks.controllereditor", "hooks.livecontrollerbank", "hooks.scoreeditor", "hooks.scorereader" ],
+                                            "parameter_enum": [ "hooks.cueeditor", "hooks.cueplayer", "hooks.livecontroller", "hooks.controllereditor", "hooks.livecontrollerbank", "hooks.probecontroller", "hooks.scoreeditor", "hooks.scorereader" ],
                                             "parameter_longname": "live.tab",
-                                            "parameter_mmax": 6,
+                                            "parameter_mmax": 7,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "live.tab",
                                             "parameter_type": 2,
@@ -133,7 +143,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 187.0, 345.0, 84.0, 22.0 ],
+                                    "patching_rect": [ 187.0, 399.0, 84.0, 22.0 ],
                                     "text": "prepend help"
                                 }
                             },
@@ -145,7 +155,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 187.0, 378.0, 55.0, 22.0 ],
+                                    "patching_rect": [ 187.0, 432.0, 55.0, 22.0 ],
                                     "text": "pcontrol"
                                 }
                             }
@@ -154,7 +164,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-21", 0 ],
-                                    "midpoints": [ 196.0, 341.5, 196.5, 341.5 ],
+                                    "midpoints": [ 196.0, 385.5, 196.5, 385.5 ],
                                     "source": [ "obj-15", 1 ]
                                 }
                             },
@@ -182,12 +192,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1639.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1085.0, 776.0 ],
                         "title": "Basics",
                         "boxes": [
                             {
@@ -402,7 +412,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -487,7 +497,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 1,
+                                                            "revision": 4,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -612,7 +622,7 @@
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 550.0, 383.0, 135.0, 22.0 ],
                                                                     "saved_object_attributes": {
-                                                                        "client_rect": [ 100, 134, 500, 443 ],
+                                                                        "client_rect": [ 100, 134, 454, 262 ],
                                                                         "parameter_enable": 0,
                                                                         "parameter_mappable": 0,
                                                                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -964,7 +974,7 @@
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 56.0, 446.0, 145.0, 22.0 ],
                                                     "saved_object_attributes": {
-                                                        "client_rect": [ 100, 134, 500, 443 ],
+                                                        "client_rect": [ 100, 134, 454, 262 ],
                                                         "parameter_enable": 0,
                                                         "parameter_mappable": 0,
                                                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -1412,12 +1422,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1639.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1085.0, 776.0 ],
                         "title": "Pattr Connections",
                         "boxes": [
                             {
@@ -2739,12 +2749,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1639.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1085.0, 776.0 ],
                         "title": "Helpers",
                         "boxes": [
                             {
@@ -2803,7 +2813,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 702.0, 72.0, 480.0, 186.0 ],
+                                    "patching_rect": [ 702.0, 72.0, 483.0, 186.0 ],
                                     "text": "Naming conventions follow: [Name]/[Device]/[Parameter]\n\nThe advantage of using this naming system, is that devices can be grouped with names and easily accessed. \n\nIt's possible that there are long effect chains for multiple signal sources, or different instances of the same synth for different channels. Through the naming system, you can easily call the chain of devices through the helpers here.\n\nSo you will want to give your abstraction a name. And then for each of the devices on the same channel or group the same name.\n\nFor example on this page: both example filter and example synth has the name helper."
                                 }
                             },
@@ -2956,9 +2966,9 @@
                                     "maxclass": "bpatcher",
                                     "name": "hooks.probe.maxpat",
                                     "numinlets": 2,
-                                    "numoutlets": 1,
+                                    "numoutlets": 2,
                                     "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "" ],
+                                    "outlettype": [ "", "" ],
                                     "patching_rect": [ 34.0, 14.0, 180.0, 774.0 ],
                                     "viewvisibility": 1
                                 }
@@ -3009,7 +3019,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 1,
+                                            "revision": 4,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3883,12 +3893,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1639.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1085.0, 776.0 ],
                         "default_fontsize": 13.0,
                         "globalpatchername": "overview/test",
                         "title": "Overview",
@@ -4065,7 +4075,7 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 627.0, 458.0, 145.0, 23.0 ],
                                     "saved_object_attributes": {
-                                        "client_rect": [ 100, 134, 500, 443 ],
+                                        "client_rect": [ 100, 134, 454, 262 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "storage_rect": [ 583, 69, 1034, 197 ]
