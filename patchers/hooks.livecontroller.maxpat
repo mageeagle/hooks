@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -485,8 +485,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 1320.0, 701.0, 303.0, 44.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 729.7592383027077, 731.0, 202.0, 44.0 ],
-                    "text": "synth"
+                    "presentation_rect": [ 729.7592383027077, 731.0, 202.0, 44.0 ]
                 }
             },
             {
@@ -1013,7 +1012,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 814.634165763855, 417.47634863853455, 50.0, 22.0 ],
-                    "text": "27"
+                    "text": "30"
                 }
             },
             {
@@ -1275,13 +1274,24 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 39.0, 194.0, 1639.0, 802.0 ],
+                        "rect": [ -58.0, 197.0, 1639.0, 802.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-26",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 164.0, 71.7105256319046, 29.5, 22.0 ],
+                                    "text": "$1"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-24",
@@ -1742,8 +1752,7 @@
                         "lines": [
                             {
                                 "patchline": {
-                                    "destination": [ "obj-24", 1 ],
-                                    "midpoints": [ 173.5, 105.52631521224976, 176.05263030529022, 105.52631521224976 ],
+                                    "destination": [ "obj-26", 0 ],
                                     "source": [ "obj-1", 0 ]
                                 }
                             },
@@ -1952,6 +1961,13 @@
                                     "destination": [ "obj-192", 0 ],
                                     "midpoints": [ 728.5, 338.4821355342865, 728.5, 338.4821355342865 ],
                                     "source": [ "obj-252", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-24", 1 ],
+                                    "midpoints": [ 173.5, 105.52631521224976, 176.05263030529022, 105.52631521224976 ],
+                                    "source": [ "obj-26", 0 ]
                                 }
                             },
                             {
@@ -2204,7 +2220,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2999,7 +3015,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-58",
-                    "items": [ 0, ",", 0, ",", 0, ",", 0, ",", 0, ",", 0, ",", 1 ],
+                    "items": "<empty>",
                     "maxclass": "chooser",
                     "multiselect": 1,
                     "numinlets": 1,
@@ -3020,7 +3036,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 125.53189992904663, 80.85105419158936, 24.0, 24.0 ],
+                    "patching_rect": [ 126.0, 81.0, 24.0, 24.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 727.7592383027077, 647.0, 48.14814656972885, 48.14814656972885 ]
                 }
@@ -3360,7 +3376,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-68",
-                    "items": [ 5000, ",", 1.0, ",", 1.0, ",", 64.7644, ",", 31.2168, ",", 0.4661, ",", 0.2, ",", 0.0 ],
+                    "items": "<empty>",
                     "maxclass": "chooser",
                     "numinlets": 1,
                     "numoutlets": 6,
@@ -3377,7 +3393,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-33",
-                    "items": [ "fade-in-out-time", ",", "gain", ",", "input-gain", ",", "midi-hi", ",", "midi-lo", ",", "q-hi", ",", "q-lo", ",", "toggle" ],
+                    "items": "<empty>",
                     "maxclass": "chooser",
                     "numinlets": 1,
                     "numoutlets": 6,
@@ -3395,7 +3411,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-6",
-                    "items": [ "tab-1/example-filter", ",", "tab-1-extra/example-filter", ",", "loud/example-filter", ",", "test/example-filter", ",", "hi/example-filter", ",", "live-control/example-filter", ",", "tab-2/example-synth" ],
+                    "items": "<empty>",
                     "maxclass": "chooser",
                     "numinlets": 1,
                     "numoutlets": 6,

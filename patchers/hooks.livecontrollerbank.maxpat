@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
@@ -1520,7 +1520,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 74.31913638114929, 982.8947274684906, 50.0, 22.0 ],
-                    "text": "8"
+                    "text": "2"
                 }
             },
             {
@@ -1858,7 +1858,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 814.634165763855, 417.47634863853455, 50.0, 22.0 ],
-                    "text": "5"
+                    "text": "109"
                 }
             },
             {
@@ -2032,13 +2032,24 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
                         "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-7",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 164.0, 71.7105256319046, 29.5, 22.0 ],
+                                    "text": "$1"
+                                }
+                            },
                             {
                                 "box": {
                                     "comment": "add item",
@@ -2277,8 +2288,7 @@
                         "lines": [
                             {
                                 "patchline": {
-                                    "destination": [ "obj-24", 1 ],
-                                    "midpoints": [ 173.5, 105.52631521224976, 176.05263030529022, 105.52631521224976 ],
+                                    "destination": [ "obj-7", 0 ],
                                     "source": [ "obj-1", 0 ]
                                 }
                             },
@@ -2425,6 +2435,13 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-24", 1 ],
+                                    "midpoints": [ 173.5, 105.52631521224976, 176.05263030529022, 105.52631521224976 ],
+                                    "source": [ "obj-7", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-57", 0 ],
                                     "source": [ "obj-75", 0 ]
                                 }
@@ -2547,7 +2564,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3546,7 +3563,7 @@
                     "patching_rect": [ 1134.1463685035706, 112.76594400405884, 282.8496938943863, 34.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 728.0, 170.0, 298.22221702337265, 34.0 ],
-                    "text": "hi/example-synth"
+                    "text": "helper/example-synth 0"
                 }
             },
             {
