@@ -9,8 +9,116 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1264.0, 802.0 ],
+        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-52",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1732.75, 143.4615399837494, 29.5, 22.0 ],
+                    "text": "0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-51",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1732.75, 192.4615399837494, 29.5, 22.0 ],
+                    "text": "0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-50",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1513.75, 196.4615399837494, 29.5, 22.0 ],
+                    "text": "0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-47",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1402.0, 136.4615399837494, 217.0, 48.0 ],
+                    "text": "A list to skip certain buttons/dials/pads during probe if they are broken. (Because it happens) "
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-44",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1422.0, 221.4615399837494, 177.0, 22.0 ],
+                    "text": "s hooks/probecontroller/skipdial"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-42",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1621.0, 221.4615399837494, 191.0, 22.0 ],
+                    "text": "s hooks/probecontroller/skiptoggle"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-40",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1626.0, 167.4615399837494, 191.0, 22.0 ],
+                    "text": "s hooks/probecontroller/skipmatrix"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-36",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1422.0, 196.4615399837494, 42.0, 22.0 ],
+                    "presentation_linecount": 2,
+                    "text": "1 3 18"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-32",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1621.0, 192.4615399837494, 35.0, 22.0 ],
+                    "text": "1 2 3"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1626.0, 143.4615399837494, 35.0, 22.0 ],
+                    "text": "1 2 3"
+                }
+            },
             {
                 "box": {
                     "id": "obj-55",
@@ -19,16 +127,17 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 1354.0, 172.0000035762787, 24.0, 24.0 ]
+                    "patching_rect": [ 1194.0, 148.4615399837494, 24.0, 24.0 ]
                 }
             },
             {
                 "box": {
                     "id": "obj-49",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1354.0, 150.0000035762787, 228.0, 20.0 ],
+                    "patching_rect": [ 1220.0, 140.0, 169.0, 34.0 ],
                     "text": "Param Window for the selected device"
                 }
             },
@@ -39,8 +148,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1701.0, 108.33332920074463, 50.0, 22.0 ],
-                    "text": "1 0"
+                    "patching_rect": [ 1638.0, 105.92306876182556, 50.0, 22.0 ],
+                    "text": "4 0"
                 }
             },
             {
@@ -50,7 +159,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1506.0, 108.33332920074463, 50.0, 22.0 ],
+                    "patching_rect": [ 1443.0, 105.92306876182556, 50.0, 22.0 ],
                     "text": "3 0"
                 }
             },
@@ -61,7 +170,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1354.0, 108.33332920074463, 50.0, 22.0 ],
+                    "patching_rect": [ 1291.0, 105.92306876182556, 50.0, 22.0 ],
                     "text": "0"
                 }
             },
@@ -71,7 +180,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1701.0, 52.49999713897705, 150.0, 20.0 ],
+                    "patching_rect": [ 1638.0, 49.92306876182556, 150.0, 20.0 ],
                     "text": "Toggle values"
                 }
             },
@@ -81,7 +190,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1506.0, 52.49999713897705, 150.0, 20.0 ],
+                    "patching_rect": [ 1443.0, 49.92306876182556, 150.0, 20.0 ],
                     "text": "Rotary/Dial values"
                 }
             },
@@ -91,7 +200,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1354.0, 52.49999713897705, 150.0, 20.0 ],
+                    "patching_rect": [ 1291.0, 49.92306876182556, 150.0, 20.0 ],
                     "text": "\"Toggle\" for the device"
                 }
             },
@@ -101,8 +210,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1354.0, 29.0, 466.0, 20.0 ],
-                    "presentation_linecount": 2,
+                    "patching_rect": [ 1291.0, 26.92306876182556, 466.0, 20.0 ],
                     "text": "Receives that you can use to update values to your controller"
                 }
             },
@@ -114,7 +222,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1647.0, 276.0, 201.0, 34.0 ],
-                    "presentation_linecount": 2,
                     "text": "Toggle Input (Index, 0/1)\nSame as clicking the toggles below."
                 }
             },
@@ -126,7 +233,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1354.0, 276.0, 201.0, 34.0 ],
-                    "presentation_linecount": 4,
                     "text": "Rotary Input (Index, Number 0-127)\nSame as clicking the dial below."
                 }
             },
@@ -138,7 +244,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 1036.0, 244.0, 243.0, 75.0 ],
-                    "presentation_linecount": 6,
                     "text": "Grid Input (Index) \nChoose the device from a button listed below, same as clicking but with an index. You can map this to a drum pad or something"
                 }
             },
@@ -178,7 +283,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1354.0, 201.0000035762787, 183.0, 22.0 ],
+                    "patching_rect": [ 1194.0, 177.4615399837494, 183.0, 22.0 ],
                     "text": "s hooks/controller/params-toggle"
                 }
             },
@@ -190,7 +295,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1354.0, 74.49999713897705, 124.0, 23.0 ],
+                    "patching_rect": [ 1291.0, 72.92306876182556, 124.0, 23.0 ],
                     "text": "r hooks/controller/on"
                 }
             },
@@ -201,7 +306,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1701.0, 75.0, 173.0, 22.0 ],
+                    "patching_rect": [ 1638.0, 72.92306876182556, 173.0, 22.0 ],
                     "text": "r hooks/controller/toggle/output"
                 }
             },
@@ -212,7 +317,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1506.0, 75.0, 171.0, 22.0 ],
+                    "patching_rect": [ 1443.0, 72.92306876182556, 171.0, 22.0 ],
                     "text": "r hooks/controller/rotary/output"
                 }
             },
@@ -343,7 +448,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1082.0, 48.99999713897705, 244.0, 48.0 ],
+                    "patching_rect": [ 1015.3847122192383, 49.92306876182556, 244.0, 48.0 ],
                     "text": "Look inside the example abstraction and see how to make the pattr objects searchable for the probecontroller!"
                 }
             },
@@ -427,7 +532,7 @@
                     "maxclass": "mc.ezdac~",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1206.0975897312164, 150.0000035762787, 45.0, 45.0 ]
+                    "patching_rect": [ 1140.000108718872, 151.4615399837494, 45.0, 45.0 ]
                 }
             },
             {
@@ -439,7 +544,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "multichannelsignal", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 968.2927060127258, 166.7916600704193, 228.125, 28.125 ]
+                    "patching_rect": [ 901.5385475158691, 166.84615683555603, 228.125, 28.125 ]
                 }
             },
             {
@@ -449,7 +554,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 868.7499668598175, 172.9166600704193, 92.0, 22.0 ],
+                    "patching_rect": [ 803.0769996643066, 173.0000035762787, 92.0, 22.0 ],
                     "text": "mc.mixdown~ 2"
                 }
             },
@@ -460,7 +565,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 916.6666316986084, 108.33332920074463, 185.0, 22.0 ],
+                    "patching_rect": [ 850.7693119049072, 108.3846127986908, 185.0, 22.0 ],
                     "text": "example-synth-hooked prober3 8",
                     "varname": "example-synth-hooked[2]"
                 }
@@ -472,7 +577,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 885.4166328907013, 74.99999713897705, 185.0, 22.0 ],
+                    "patching_rect": [ 820.000078201294, 76.07691740989685, 185.0, 22.0 ],
                     "text": "example-synth-hooked prober2 8",
                     "varname": "example-synth-hooked[1]"
                 }
@@ -484,7 +589,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 868.7499668598175, 35.41666531562805, 185.0, 22.0 ],
+                    "patching_rect": [ 803.0769996643066, 36.076913595199585, 185.0, 22.0 ],
                     "text": "example-synth-hooked prober1 8",
                     "varname": "example-synth-hooked"
                 }
@@ -518,14 +623,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-17", 0 ],
-                    "midpoints": [ 878.2499668598175, 204.9166600704193, 967.0457276105881, 204.9166600704193, 967.0457276105881, 156.7916600704193, 977.7927060127258, 156.7916600704193 ],
+                    "midpoints": [ 812.5769996643066, 205.57690834999084, 901.3727604150772, 205.57690834999084, 901.3727604150772, 157.45190834999084, 911.0385475158691, 157.45190834999084 ],
                     "source": [ "obj-16", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-18", 0 ],
-                    "midpoints": [ 977.7927060127258, 204.9166600704193, 1201.5731991529465, 204.9166600704193, 1201.5731991529465, 140.0000035762787, 1215.5975897312164, 140.0000035762787 ],
+                    "midpoints": [ 911.0385475158691, 205.57690834999084, 1135.9002319574356, 205.57690834999084, 1135.9002319574356, 140.66025185585022, 1149.500108718872, 140.66025185585022 ],
                     "source": [ "obj-17", 0 ]
                 }
             },
@@ -533,6 +638,12 @@
                 "patchline": {
                     "destination": [ "obj-19", 2 ],
                     "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-40", 0 ],
+                    "source": [ "obj-22", 0 ]
                 }
             },
             {
@@ -567,6 +678,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-42", 0 ],
+                    "source": [ "obj-32", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-30", 0 ],
                     "source": [ "obj-33", 0 ]
                 }
@@ -575,6 +692,33 @@
                 "patchline": {
                     "destination": [ "obj-19", 1 ],
                     "source": [ "obj-35", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-44", 0 ],
+                    "source": [ "obj-36", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-44", 0 ],
+                    "midpoints": [ 1523.25, 219.9615399837494, 1431.5, 219.9615399837494 ],
+                    "source": [ "obj-50", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-42", 0 ],
+                    "midpoints": [ 1742.25, 217.9615399837494, 1630.5, 217.9615399837494 ],
+                    "source": [ "obj-51", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-40", 0 ],
+                    "midpoints": [ 1742.25, 166.4615399837494, 1635.5, 166.4615399837494 ],
+                    "source": [ "obj-52", 0 ]
                 }
             },
             {

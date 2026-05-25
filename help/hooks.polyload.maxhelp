@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1242.0, 802.0 ],
+        "rect": [ 134.0, 84.0, 1242.0, 787.0 ],
         "boxes": [
             {
                 "box": {
@@ -107,8 +107,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 127.64406943321228, 439.83051896095276, 362.0, 20.0 ],
-                    "text": "Load voices"
+                    "patching_rect": [ 128.0, 439.83051896095276, 638.0, 20.0 ],
+                    "text": "Load voices AFTER audio is ON (According to MaxMSP support, this reduces the load on audio driver initialization)"
                 }
             },
             {
