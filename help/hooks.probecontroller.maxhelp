@@ -9,8 +9,213 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
+        "rect": [ 34.0, 77.0, 1264.0, 802.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-55",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1354.0, 172.0000035762787, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-49",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1354.0, 150.0000035762787, 228.0, 20.0 ],
+                    "text": "Param Window for the selected device"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-45",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1701.0, 108.33332920074463, 50.0, 22.0 ],
+                    "text": "1 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-43",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1506.0, 108.33332920074463, 50.0, 22.0 ],
+                    "text": "3 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-41",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1354.0, 108.33332920074463, 50.0, 22.0 ],
+                    "text": "0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-39",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1701.0, 52.49999713897705, 150.0, 20.0 ],
+                    "text": "Toggle values"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-38",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1506.0, 52.49999713897705, 150.0, 20.0 ],
+                    "text": "Rotary/Dial values"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-37",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1354.0, 52.49999713897705, 150.0, 20.0 ],
+                    "text": "\"Toggle\" for the device"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-34",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1354.0, 29.0, 466.0, 20.0 ],
+                    "presentation_linecount": 2,
+                    "text": "Receives that you can use to update values to your controller"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-31",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1647.0, 276.0, 201.0, 34.0 ],
+                    "presentation_linecount": 2,
+                    "text": "Toggle Input (Index, 0/1)\nSame as clicking the toggles below."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-28",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1354.0, 276.0, 201.0, 34.0 ],
+                    "presentation_linecount": 4,
+                    "text": "Rotary Input (Index, Number 0-127)\nSame as clicking the dial below."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-12",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1036.0, 244.0, 243.0, 75.0 ],
+                    "presentation_linecount": 6,
+                    "text": "Grid Input (Index) \nChoose the device from a button listed below, same as clicking but with an index. You can map this to a drum pad or something"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 369.0, 292.96156883239746, 150.0, 20.0 ],
+                    "text": "Probe All"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 44.0, 292.96156883239746, 150.0, 20.0 ],
+                    "text": "Probe Name"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 693.0, 292.96156883239746, 150.0, 20.0 ],
+                    "text": "Device Toggle"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-186",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1354.0, 201.0000035762787, 183.0, 22.0 ],
+                    "text": "s hooks/controller/params-toggle"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans",
+                    "id": "obj-11",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1354.0, 74.49999713897705, 124.0, 23.0 ],
+                    "text": "r hooks/controller/on"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-25",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1701.0, 75.0, 173.0, 22.0 ],
+                    "text": "r hooks/controller/toggle/output"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-9",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1506.0, 75.0, 171.0, 22.0 ],
+                    "text": "r hooks/controller/rotary/output"
+                }
+            },
             {
                 "box": {
                     "fontsize": 18.0,
@@ -18,7 +223,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 75.0, 289.46156883239746, 253.0, 27.0 ],
+                    "patching_rect": [ 79.0, 268.5, 253.0, 27.0 ],
                     "text": "Start Here! Probe Devices!"
                 }
             },
@@ -30,7 +235,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 341.27622003555297, 280.6923065185547, 24.615386962890625, 24.615386962890625 ]
+                    "patching_rect": [ 341.27622003555297, 269.6923065185547, 24.615386962890625, 24.615386962890625 ]
                 }
             },
             {
@@ -116,8 +321,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 24.797338008880615, 247.0, 752.3077640533447, 20.0 ],
-                    "text": "You can connect your own controller logic and control this with the inlets. Unlock the patcher and hover over it to see the inlet use."
+                    "patching_rect": [ 24.797338008880615, 232.0, 752.3077640533447, 20.0 ],
+                    "text": "You can connect your own controller logic and control this with the inlets."
                 }
             },
             {
@@ -208,8 +413,9 @@
                     "maxclass": "bpatcher",
                     "name": "hooks.probecontroller.maxpat",
                     "numinlets": 6,
-                    "numoutlets": 0,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 21.95122003555298, 318.46156883239746, 1615.625, 943.75 ],
                     "varname": "hooks.probecontroller",
                     "viewvisibility": 1
@@ -287,6 +493,12 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-41", 1 ],
+                    "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-16", 0 ],
                     "source": [ "obj-13", 0 ]
                 }
@@ -331,6 +543,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-45", 1 ],
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-29", 0 ],
                     "source": [ "obj-26", 0 ]
                 }
@@ -361,8 +579,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-186", 0 ],
+                    "source": [ "obj-55", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-19", 0 ],
                     "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-43", 1 ],
+                    "source": [ "obj-9", 0 ]
                 }
             }
         ],
