@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1085.0, 802.0 ],
+        "rect": [ 34.0, 77.0, 1242.0, 802.0 ],
         "showrootpatcherontab": 0,
         "boxes": [
             {
@@ -28,9 +28,20 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 103.0, 1085.0, 776.0 ],
+                        "rect": [ 34.0, 103.0, 1242.0, 776.0 ],
                         "title": "Utilities",
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-2",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 372.0, 371.0, 523.0, 20.0 ],
+                                    "presentation_linecount": 2,
+                                    "text": "Load Poly Patcher Voices dynamically one by one for crash preventions due to huge patches"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-1",
@@ -114,18 +125,18 @@
                                     "fontsize": 20.0,
                                     "id": "obj-15",
                                     "maxclass": "live.tab",
-                                    "num_lines_patching": 8,
+                                    "num_lines_patching": 9,
                                     "num_lines_presentation": 0,
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "float" ],
                                     "parameter_enable": 1,
-                                    "patching_rect": [ 22.0, 137.0, 348.0, 235.0 ],
+                                    "patching_rect": [ 22.0, 137.0, 348.0, 259.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
-                                            "parameter_enum": [ "hooks.cueeditor", "hooks.cueplayer", "hooks.livecontroller", "hooks.controllereditor", "hooks.livecontrollerbank", "hooks.probecontroller", "hooks.scoreeditor", "hooks.scorereader" ],
+                                            "parameter_enum": [ "hooks.cueeditor", "hooks.cueplayer", "hooks.livecontroller", "hooks.controllereditor", "hooks.livecontrollerbank", "hooks.probecontroller", "hooks.scoreeditor", "hooks.scorereader", "hooks.polyload" ],
                                             "parameter_longname": "live.tab",
-                                            "parameter_mmax": 7,
+                                            "parameter_mmax": 8,
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "live.tab",
                                             "parameter_type": 2,
@@ -143,7 +154,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 187.0, 399.0, 84.0, 22.0 ],
+                                    "patching_rect": [ 187.0, 441.0, 84.0, 22.0 ],
                                     "text": "prepend help"
                                 }
                             },
@@ -155,7 +166,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 187.0, 432.0, 55.0, 22.0 ],
+                                    "patching_rect": [ 187.0, 474.0, 55.0, 22.0 ],
                                     "text": "pcontrol"
                                 }
                             }
@@ -164,7 +175,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-21", 0 ],
-                                    "midpoints": [ 196.0, 385.5, 196.5, 385.5 ],
+                                    "midpoints": [ 196.0, 418.5, 196.5, 418.5 ],
                                     "source": [ "obj-15", 1 ]
                                 }
                             },
@@ -197,7 +208,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1085.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1242.0, 776.0 ],
                         "title": "Basics",
                         "boxes": [
                             {
@@ -1427,7 +1438,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1085.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1242.0, 776.0 ],
                         "title": "Pattr Connections",
                         "boxes": [
                             {
@@ -2754,7 +2765,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1085.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1242.0, 776.0 ],
                         "title": "Helpers",
                         "boxes": [
                             {
@@ -3898,7 +3909,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1085.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1242.0, 776.0 ],
                         "default_fontsize": 13.0,
                         "globalpatchername": "overview/test",
                         "title": "Overview",
