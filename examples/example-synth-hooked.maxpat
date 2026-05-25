@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 420.0, 135.0, 1000.0, 730.0 ],
+        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
         "subpatcher_template": "hook-template",
         "boxes": [
             {
@@ -209,7 +209,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
-                        "globalpatchername": "0/example-synth",
+                        "globalpatchername": "fuck/example-synth",
                         "boxes": [
                             {
                                 "box": {
@@ -230,7 +230,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 883.0, 293.0, 292.0, 34.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "When a pattr has toggle as annotation_name, it will be mapped on the toggles of the probecontroller."
                                 }
                             },
@@ -242,7 +241,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 288.5, 238.0, 292.0, 48.0 ],
-                                    "presentation_linecount": 4,
                                     "text": "When a pattr has expo (exponent number) as annotation_name, the expoential is applied to the scale object on the rotary controller "
                                 }
                             },
@@ -253,7 +251,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 582.5, 288.0, 218.0, 48.0 ],
+                                    "patching_rect": [ 582.5, 288.0, 220.0, 48.0 ],
                                     "text": "When a pattr has the min and max attribute, the parameter will be mapped on the dials of the probecontroller."
                                 }
                             },
@@ -315,13 +313,13 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 574.0, 343.0, 218.0, 22.0 ],
+                                    "patching_rect": [ 574.0, 343.0, 222.0, 22.0 ],
                                     "saved_object_attributes": {
                                         "initial": [ 0.1 ],
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0
                                     },
-                                    "text": "pattr ratio @initial 0.1 @min 1 @max 1.",
+                                    "text": "pattr ratio @initial 0.1 @min 0. @max 1.",
                                     "varname": "ratio"
                                 }
                             },
@@ -879,7 +877,7 @@
                     },
                     "patching_rect": [ 54.0, 180.0, 97.0, 22.0 ],
                     "saved_object_attributes": {
-                        "globalpatchername": "0/example-synth"
+                        "globalpatchername": "fuck/example-synth"
                     },
                     "text": "p example-synth",
                     "varname": "patcher"

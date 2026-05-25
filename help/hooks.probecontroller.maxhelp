@@ -13,6 +13,95 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-63",
+                    "linecount": 7,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1484.0, 925.0, 213.8461742401123, 103.0 ],
+                    "presentation_linecount": 3,
+                    "text": "SPECIAL NOTE:\nWhen you move your knob, the respective number box is automatically focused. Then you could input a number, which will then ramp to that value over the ramp time specified above"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-59",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1381.4720533688862, 252.18049520254135, 41.0, 22.0 ],
+                    "text": "set $1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-60",
+                    "maxclass": "number",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1381.4720533688862, 221.4615399837494, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-61",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1352.4720533688862, 282.0, 63.0, 22.0 ],
+                    "text": "prepend 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-58",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1148.0, 252.0, 41.0, 22.0 ],
+                    "text": "set $1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-56",
+                    "maxclass": "number",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1148.0, 221.4615399837494, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-48",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1647.0, 271.0, 82.0, 34.0 ],
+                    "text": "Focus on Ramp Time"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-46",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1618.576220035553, 276.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-52",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -40,7 +129,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1513.75, 196.4615399837494, 29.5, 22.0 ],
+                    "patching_rect": [ 1533.5032708644867, 196.62493789196014, 29.5, 22.0 ],
                     "text": "0"
                 }
             },
@@ -61,7 +150,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1422.0, 221.4615399837494, 177.0, 22.0 ],
+                    "patching_rect": [ 1442.0, 221.4615399837494, 177.0, 22.0 ],
                     "text": "s hooks/probecontroller/skipdial"
                 }
             },
@@ -92,8 +181,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1422.0, 196.4615399837494, 42.0, 22.0 ],
-                    "presentation_linecount": 2,
+                    "patching_rect": [ 1442.0, 196.62493789196014, 42.0, 22.0 ],
                     "text": "1 3 18"
                 }
             },
@@ -149,7 +237,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1638.0, 105.92306876182556, 50.0, 22.0 ],
-                    "text": "4 0"
+                    "text": "1 0"
                 }
             },
             {
@@ -160,7 +248,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1443.0, 105.92306876182556, 50.0, 22.0 ],
-                    "text": "3 0"
+                    "text": "2 0"
                 }
             },
             {
@@ -221,7 +309,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1647.0, 276.0, 201.0, 34.0 ],
+                    "patching_rect": [ 1417.5, 282.0, 201.0, 34.0 ],
                     "text": "Toggle Input (Index, 0/1)\nSame as clicking the toggles below."
                 }
             },
@@ -232,7 +320,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1354.0, 276.0, 201.0, 34.0 ],
+                    "patching_rect": [ 1149.472053368886, 282.0, 201.0, 34.0 ],
                     "text": "Rotary Input (Index, Number 0-127)\nSame as clicking the dial below."
                 }
             },
@@ -243,7 +331,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1036.0, 244.0, 243.0, 75.0 ],
+                    "patching_rect": [ 876.0, 234.0, 197.0, 75.0 ],
                     "text": "Grid Input (Index) \nChoose the device from a button listed below, same as clicking but with an index. You can map this to a drum pad or something"
                 }
             },
@@ -253,7 +341,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 369.0, 292.96156883239746, 150.0, 20.0 ],
+                    "patching_rect": [ 316.9231071472168, 292.96156883239746, 150.0, 20.0 ],
                     "text": "Probe All"
                 }
             },
@@ -273,7 +361,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 693.0, 292.96156883239746, 150.0, 20.0 ],
+                    "patching_rect": [ 586.1595533688863, 293.0, 150.0, 20.0 ],
                     "text": "Device Toggle"
                 }
             },
@@ -328,7 +416,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 79.0, 268.5, 253.0, 27.0 ],
+                    "patching_rect": [ 66.95122003555298, 267.3076934814453, 234.0, 27.0 ],
                     "text": "Start Here! Probe Devices!"
                 }
             },
@@ -340,7 +428,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 341.27622003555297, 269.6923065185547, 24.615386962890625, 24.615386962890625 ]
+                    "patching_rect": [ 288.05538670221966, 290.65387535095215, 24.615386962890625, 24.615386962890625 ]
                 }
             },
             {
@@ -351,29 +439,18 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 1618.0, 243.0, 24.0, 24.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-30",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1618.0, 282.0, 32.0, 22.0 ],
-                    "text": "1 $1"
+                    "patching_rect": [ 1352.4720533688862, 220.4615399837494, 24.0, 24.0 ]
                 }
             },
             {
                 "box": {
                     "id": "obj-29",
-                    "maxclass": "message",
-                    "numinlets": 2,
+                    "maxclass": "newobj",
+                    "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1300.0, 282.0, 32.0, 22.0 ],
-                    "text": "1 $1"
+                    "patching_rect": [ 1086.3678867022197, 282.0, 63.0, 22.0 ],
+                    "text": "prepend 1"
                 }
             },
             {
@@ -384,7 +461,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 1300.0, 244.0, 50.0, 22.0 ]
+                    "patching_rect": [ 1086.3678867022197, 221.4615399837494, 50.0, 22.0 ]
                 }
             },
             {
@@ -395,7 +472,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 979.926220035553, 276.0, 50.0, 22.0 ]
+                    "patching_rect": [ 820.263720035553, 266.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -406,7 +483,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 660.601220035553, 275.0, 24.0, 24.0 ]
+                    "patching_rect": [ 554.1595533688863, 291.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -517,7 +594,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "hooks.probecontroller.maxpat",
-                    "numinlets": 6,
+                    "numinlets": 7,
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "" ],
@@ -672,19 +749,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-19", 5 ],
-                    "source": [ "obj-30", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-42", 0 ],
                     "source": [ "obj-32", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-30", 0 ],
+                    "destination": [ "obj-61", 0 ],
                     "source": [ "obj-33", 0 ]
                 }
             },
@@ -702,8 +773,14 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-19", 6 ],
+                    "source": [ "obj-46", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-44", 0 ],
-                    "midpoints": [ 1523.25, 219.9615399837494, 1431.5, 219.9615399837494 ],
+                    "midpoints": [ 1543.0032708644867, 220.12493789196014, 1451.5, 220.12493789196014 ],
                     "source": [ "obj-50", 0 ]
                 }
             },
@@ -725,6 +802,38 @@
                 "patchline": {
                     "destination": [ "obj-186", 0 ],
                     "source": [ "obj-55", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-58", 0 ],
+                    "source": [ "obj-56", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-29", 0 ],
+                    "midpoints": [ 1157.5, 278.0, 1095.8678867022197, 278.0 ],
+                    "source": [ "obj-58", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-61", 0 ],
+                    "midpoints": [ 1390.9720533688862, 278.0, 1361.9720533688862, 278.0 ],
+                    "source": [ "obj-59", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-59", 0 ],
+                    "source": [ "obj-60", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 5 ],
+                    "source": [ "obj-61", 0 ]
                 }
             },
             {
