@@ -23,7 +23,9 @@ Helpers are included to easily access any patcher equiped with the hooks system.
 - Cues (Firing groups of messages / automations based on an index, similar to QLab)
 - Live Controller (Quick interface to any opened device and change values with keyboard)
 - Controller Bank (Turn Control Pads, Knobs and Buttons into a matrix mapped to any device.)
-
+- **New** Probe Controller (Automatically Maps Pattr Parameters to a controller interface, which then can be connected to Pads, Knobs and Buttons)
+- **New** Poly Loader (Loads poly voices one patcher by one patcher, reduces risk of crashing Max while initiating audio)
+- 
 ---
 
 ### Requires Max 8 and ease. Certain Objects require Max 9 and Node4Max.
