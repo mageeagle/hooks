@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1242.0, 802.0 ],
+        "rect": [ 34.0, 77.0, 1639.0, 850.0 ],
         "showrootpatcherontab": 0,
         "boxes": [
             {
@@ -28,7 +28,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 34.0, 103.0, 1242.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1639.0, 824.0 ],
                         "title": "Utilities",
                         "boxes": [
                             {
@@ -38,7 +38,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 372.0, 371.0, 523.0, 20.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "Load Poly Patcher Voices dynamically one by one for crash preventions due to huge patches"
                                 }
                             },
@@ -208,7 +207,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1242.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1639.0, 824.0 ],
                         "title": "Basics",
                         "boxes": [
                             {
@@ -1438,7 +1437,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1242.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1639.0, 824.0 ],
                         "title": "Pattr Connections",
                         "boxes": [
                             {
@@ -2765,7 +2764,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1242.0, 776.0 ],
+                        "rect": [ 34.0, 103.0, 1639.0, 824.0 ],
                         "title": "Helpers",
                         "boxes": [
                             {
@@ -3004,7 +3003,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 431.0, 351.0, 455.0, 34.0 ],
-                                    "text": "usage: bpatcher hook-helper @args [name of subpatcher to be controlled] \nThe naming convention is [Name]/[Device]"
+                                    "text": "usage: bpatcher hooks.helper @args [name of subpatcher to be controlled] \nThe naming convention is [Name]/[Device]"
                                 }
                             },
                             {
@@ -3909,7 +3908,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 26.0, 1242.0, 776.0 ],
+                        "rect": [ 0.0, 26.0, 1639.0, 824.0 ],
                         "default_fontsize": 13.0,
                         "globalpatchername": "overview/test",
                         "title": "Overview",
