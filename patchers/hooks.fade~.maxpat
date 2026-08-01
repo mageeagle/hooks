@@ -13,17 +13,6 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-16",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 50.0, 532.0, 60.0, 22.0 ],
-                    "text": "mc.pass~"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-15",
                     "linecount": 4,
                     "maxclass": "comment",
@@ -240,7 +229,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 171.00006103515625, 40.0, 30.0, 30.0 ]
                 }
             },
@@ -307,7 +296,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-16", 0 ],
+                    "destination": [ "obj-52", 0 ],
                     "source": [ "obj-11", 0 ]
                 }
             },
@@ -323,12 +312,6 @@
                     "destination": [ "obj-5", 0 ],
                     "midpoints": [ 462.5, 81.5, 416.5, 81.5 ],
                     "source": [ "obj-13", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-52", 0 ],
-                    "source": [ "obj-16", 0 ]
                 }
             },
             {
